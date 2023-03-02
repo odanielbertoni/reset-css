@@ -1,0 +1,64 @@
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+html {
+  height: 100%;
+}
+
+html:focus-within {
+  scroll-behavior: smooth;
+}
+
+body {
+  min-height: 100vh;
+  line-height: 1.5;
+  text-rendering: optimizeSpeed;
+  -webkit-font-smoothing: antialiased;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+img, picture, video, iframe, canvas, object, embed, svg {
+  display: block;
+  max-width: 100%;
+}
+
+input, button, textarea, select {
+  color: inherit;
+  font: inherit;
+  letter-spacing: inherit;
+}
+
+input, textarea, button {
+  border: 1px solid #c0c0c0;
+}
+
+textarea {
+  width: 100%;
+}
+
+button {
+  border-radius: 0;
+  padding: 0.75em 1em;
+  background-color: transparent;
+}
+
+button * {
+  pointer-events: none;
+}
+
+p, h1, h2, h3, h4, h5, h6 {
+  overflow-wrap: break-word;
+}
+
+a:not([class]) {
+  text-decoration-skip-ink: auto;
+}
+
+ul {
+  list-style: none;
+}
