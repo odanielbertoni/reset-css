@@ -1,20 +1,26 @@
 {
   "name": "reset-css",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "My Custom CSS Reset",
+  "main": "reset.css",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "release":"np",
+    "test": ""
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/odanielbertoni/reset-css.git"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "keywords": [
+    "CSS", "reset"
+  ],
+  "author": "Daniel Bertoni <odanielbertoni@gmail.com> (https://danielbertoni.dev)",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/odanielbertoni/reset-css/issues"
   },
-  "homepage": "https://github.com/odanielbertoni/reset-css#readme"
+  "homepage": "https://github.com/odanielbertoni/reset-css#readme",
+  "devDependencies": {
+    "np": "^8.19.2"
+  }
 }
